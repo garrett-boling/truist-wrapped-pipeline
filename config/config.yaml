@@ -1,0 +1,21 @@
+# config.yaml
+data:
+  input_dir: data/raw
+  file_pattern: "*.csv"
+
+schema:
+  date_col: "Transaction Date"
+  amount_col: "Amount"
+  description_col: "Full Description"
+
+paths:
+  data_root: data
+  raw_data: data/raw
+  intermediate_data: data/intermediate
+  internal_reconciled_data: data/intermediate/reconciled
+  output_data: data/output
+  logs: data/logs
+
+  reports: reports
+  figures: reports/figures
+  sunburst: reports/figures/sunburst
